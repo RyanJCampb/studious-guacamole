@@ -31,4 +31,6 @@ public class AddressBook {
         //This a comment for changes
         // This is the second comment
     }
+
+    private void new_method(){}
 }
