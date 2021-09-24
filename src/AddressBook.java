@@ -29,5 +29,6 @@ public class AddressBook {
         book.addBuddy(buddy);
         book.removeBuddy(buddy);
         //This a comment for changes
+        // This is the second comment
     }
 }
