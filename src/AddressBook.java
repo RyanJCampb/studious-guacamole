@@ -6,6 +6,7 @@ public class AddressBook {
 
     public AddressBook()
     {
+        buddies = new ArrayList<>();
         this.addBuddy(new BuddyInfo());
         this.addBuddy(new BuddyInfo());
         this.addBuddy(new BuddyInfo());
@@ -27,5 +28,6 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         book.addBuddy(buddy);
         book.removeBuddy(buddy);
+        //This a comment for changes
     }
 }
